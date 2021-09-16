@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>SPACE_ID</key>
+	<string>$(SPACE_ID)</string>
+	<key>TOKEN</key>
+	<string>$(TOKEN)</string>
 </dict>
 </plist>
