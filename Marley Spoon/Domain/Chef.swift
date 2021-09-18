@@ -16,9 +16,9 @@ class Chef: EntryDecodable, Resource, FieldKeysQueryable {
     let name: String
 
     required init(from decoder: Decoder) throws {
-        sys             = try decoder.sys()
-        let container   = try decoder.contentfulFieldsContainer(keyedBy: FieldKeys.self)
-        name           = try container.decode(String.self, forKey: .name)
+        sys = try decoder.sys()
+        let container = try decoder.contentfulFieldsContainer(keyedBy: FieldKeys.self)
+        name = try container.decode(String.self, forKey: .name)
     }
 
     enum FieldKeys: String, CodingKey {
