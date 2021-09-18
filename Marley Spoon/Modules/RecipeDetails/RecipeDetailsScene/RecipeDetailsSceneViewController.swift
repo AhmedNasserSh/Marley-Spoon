@@ -43,7 +43,7 @@ class RecipeDetailsSceneViewController: UIViewController {
             return
         }
         let greentColorAttributes: [NSAttributedString.Key : Any] = [
-            NSAttributedString.Key.foregroundColor: UIColor.systemGreen,
+            NSAttributedString.Key.foregroundColor: UIColor.black,
             NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15, weight: .bold)
         ]
         let blackColorAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]

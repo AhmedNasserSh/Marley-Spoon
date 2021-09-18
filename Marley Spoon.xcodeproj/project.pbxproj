@@ -10,10 +10,8 @@
 		3AA3663D3B175330B562B024 /* Pods_Marley_SpoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27B6C5A91FA0C2E01B1EAD1 /* Pods_Marley_SpoonTests.framework */; };
 		4E410DC226F0B72C00541749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DC126F0B72C00541749 /* AppDelegate.swift */; };
 		4E410DC426F0B72C00541749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DC326F0B72C00541749 /* SceneDelegate.swift */; };
-		4E410DCC26F0B72C00541749 /* Marley_Spoon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DCA26F0B72C00541749 /* Marley_Spoon.xcdatamodeld */; };
 		4E410DCE26F0B72D00541749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E410DCD26F0B72D00541749 /* Assets.xcassets */; };
 		4E410DD126F0B72D00541749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E410DCF26F0B72D00541749 /* LaunchScreen.storyboard */; };
-		4E410DDC26F0B72D00541749 /* Marley_SpoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DDB26F0B72D00541749 /* Marley_SpoonTests.swift */; };
 		4E410DE726F0B72D00541749 /* Marley_SpoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DE626F0B72D00541749 /* Marley_SpoonUITests.swift */; };
 		4E410DF626F0C44000541749 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DF526F0C44000541749 /* Recipe.swift */; };
 		4EECC98026F3C0A0007779DE /* ContentfulProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC97F26F3C0A0007779DE /* ContentfulProvider.swift */; };
@@ -40,6 +38,8 @@
 		4EECC9BA26F66318007779DE /* RecipeDetailsSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9B826F66318007779DE /* RecipeDetailsSceneViewController.xib */; };
 		4EECC9BE26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9BC26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift */; };
 		4EECC9BF26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */; };
+		4EECC9C226F693C9007779DE /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9C126F693C9007779DE /* ErrorView.swift */; };
+		4EECC9C426F693D8007779DE /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9C326F693D8007779DE /* ErrorView.xib */; };
 		DE37D17FA827B7223248007F /* Pods_Marley_Spoon_Marley_SpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F00BBB6714A83B6E8F8A5C8 /* Pods_Marley_Spoon_Marley_SpoonUITests.framework */; };
 		E88EE1A1D6AE3F3EA25990FC /* Pods_Marley_Spoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8257E3FADE5757F2BCDC3 /* Pods_Marley_Spoon.framework */; };
 /* End PBXBuildFile section */
@@ -67,12 +67,10 @@
 		4E410DBE26F0B72C00541749 /* Marley Spoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marley Spoon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E410DC126F0B72C00541749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E410DC326F0B72C00541749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E410DCB26F0B72C00541749 /* Marley_Spoon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marley_Spoon.xcdatamodel; sourceTree = "<group>"; };
 		4E410DCD26F0B72D00541749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E410DD026F0B72D00541749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E410DD226F0B72D00541749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E410DD726F0B72D00541749 /* Marley SpoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marley SpoonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E410DDB26F0B72D00541749 /* Marley_SpoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marley_SpoonTests.swift; sourceTree = "<group>"; };
 		4E410DDD26F0B72D00541749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E410DE226F0B72D00541749 /* Marley SpoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marley SpoonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E410DE626F0B72D00541749 /* Marley_SpoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marley_SpoonUITests.swift; sourceTree = "<group>"; };
@@ -103,6 +101,8 @@
 		4EECC9B826F66318007779DE /* RecipeDetailsSceneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeDetailsSceneViewController.xib; sourceTree = "<group>"; };
 		4EECC9BC26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsSceneCollectionViewCell.swift; sourceTree = "<group>"; };
 		4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeDetailsSceneCollectionViewCell.xib; sourceTree = "<group>"; };
+		4EECC9C126F693C9007779DE /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		4EECC9C326F693D8007779DE /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
 		5F00BBB6714A83B6E8F8A5C8 /* Pods_Marley_Spoon_Marley_SpoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marley_Spoon_Marley_SpoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED178F1846ED2966FFE2F1 /* Pods-Marley SpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marley SpoonTests.debug.xcconfig"; path = "Target Support Files/Pods-Marley SpoonTests/Pods-Marley SpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A27B6C5A91FA0C2E01B1EAD1 /* Pods_Marley_SpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marley_SpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,17 +165,13 @@
 		4E410DC026F0B72C00541749 /* Marley Spoon */ = {
 			isa = PBXGroup;
 			children = (
-				4EECC9AF26F64E86007779DE /* Extensions */,
 				4EECC97C26F3C001007779DE /* App */,
 				4EECC97D26F3C07F007779DE /* Network */,
 				4E410DF426F0C2D200541749 /* Domain */,
 				4EECC98726F63830007779DE /* Modules */,
-				4E410DC126F0B72C00541749 /* AppDelegate.swift */,
-				4E410DC326F0B72C00541749 /* SceneDelegate.swift */,
 				4E410DCD26F0B72D00541749 /* Assets.xcassets */,
 				4E410DCF26F0B72D00541749 /* LaunchScreen.storyboard */,
 				4E410DD226F0B72D00541749 /* Info.plist */,
-				4E410DCA26F0B72C00541749 /* Marley_Spoon.xcdatamodeld */,
 			);
 			path = "Marley Spoon";
 			sourceTree = "<group>";
@@ -183,7 +179,7 @@
 		4E410DDA26F0B72D00541749 /* Marley SpoonTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E410DDB26F0B72D00541749 /* Marley_SpoonTests.swift */,
+				4EECC9C526F69B2E007779DE /* RecipeModuleTests */,
 				4E410DDD26F0B72D00541749 /* Info.plist */,
 			);
 			path = "Marley SpoonTests";
@@ -211,6 +207,9 @@
 		4EECC97C26F3C001007779DE /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4EECC9AF26F64E86007779DE /* Extensions */,
+				4E410DC126F0B72C00541749 /* AppDelegate.swift */,
+				4E410DC326F0B72C00541749 /* SceneDelegate.swift */,
 				4EECC97A26F3BFF6007779DE /* Credentials.xcconfig */,
 				4EECC9A926F648B5007779DE /* SceneWindowManager.swift */,
 			);
@@ -239,6 +238,7 @@
 		4EECC98726F63830007779DE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4EECC9C026F693AB007779DE /* Shared */,
 				4EECC9B526F661C8007779DE /* RecipeDetails */,
 				4EECC98A26F63865007779DE /* Recipe */,
 			);
@@ -337,6 +337,22 @@
 				4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		4EECC9C026F693AB007779DE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9C126F693C9007779DE /* ErrorView.swift */,
+				4EECC9C326F693D8007779DE /* ErrorView.xib */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4EECC9C526F69B2E007779DE /* RecipeModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RecipeModuleTests;
 			sourceTree = "<group>";
 		};
 		63EA2F3C72C3EDE8B30DE0DF /* Pods */ = {
@@ -474,6 +490,7 @@
 				4EECC9A826F646DC007779DE /* RecipeCollectionViewCell.xib in Resources */,
 				4EECC9A426F6465E007779DE /* RecipeSceneViewController.xib in Resources */,
 				4E410DD126F0B72D00541749 /* LaunchScreen.storyboard in Resources */,
+				4EECC9C426F693D8007779DE /* ErrorView.xib in Resources */,
 				4EECC9BA26F66318007779DE /* RecipeDetailsSceneViewController.xib in Resources */,
 				4E410DCE26F0B72D00541749 /* Assets.xcassets in Resources */,
 			);
@@ -603,6 +620,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EECC9C226F693C9007779DE /* ErrorView.swift in Sources */,
 				4EECC9BE26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift in Sources */,
 				4EECC9AE26F64957007779DE /* RecipeSceneRouter.swift in Sources */,
 				4EECC9A726F646DC007779DE /* RecipeCollectionViewCell.swift in Sources */,
@@ -612,7 +630,6 @@
 				4EECC9A126F64612007779DE /* RecipeSceneViewController.swift in Sources */,
 				4EECC98226F3C0FC007779DE /* ContentfulCredentials.swift in Sources */,
 				4EECC99926F63C38007779DE /* RecipeScene.swift in Sources */,
-				4E410DCC26F0B72C00541749 /* Marley_Spoon.xcdatamodeld in Sources */,
 				4EECC98426F3C37E007779DE /* Chef.swift in Sources */,
 				4E410DF626F0C44000541749 /* Recipe.swift in Sources */,
 				4E410DC226F0B72C00541749 /* AppDelegate.swift in Sources */,
@@ -634,7 +651,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E410DDC26F0B72D00541749 /* Marley_SpoonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,19 +971,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4E410DCA26F0B72C00541749 /* Marley_Spoon.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4E410DCB26F0B72C00541749 /* Marley_Spoon.xcdatamodel */,
-			);
-			currentVersion = 4E410DCB26F0B72C00541749 /* Marley_Spoon.xcdatamodel */;
-			path = Marley_Spoon.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4E410DB626F0B72C00541749 /* Project object */;
 }

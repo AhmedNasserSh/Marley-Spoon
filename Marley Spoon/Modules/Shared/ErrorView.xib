@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ErrorView" customModule="Marley_Spoon" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="0Iq-fI-5mf" id="V1Y-CB-zrX"/>
+                <outlet property="errorMessageLabel" destination="VFq-pG-baw" id="aie-E3-Qa3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0Iq-fI-5mf">
+            <rect key="frame" x="0.0" y="0.0" width="571" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFq-pG-baw">
+                    <rect key="frame" x="0.0" y="44" width="571" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbl-YM-fga">
+                    <rect key="frame" x="10" y="76" width="551" height="40"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="uwz-9i-Uzb"/>
+                    </constraints>
+                    <state key="normal" title="Retry">
+                        <color key="titleColor" systemColor="labelColor"/>
+                    </state>
+                    <connections>
+                        <action selector="didTabRetry:" destination="-1" eventType="touchUpInside" id="Plg-KZ-Fwm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="I7V-54-aXE"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VFq-pG-baw" firstAttribute="leading" secondItem="I7V-54-aXE" secondAttribute="leading" id="5Na-Fe-T1O"/>
+                <constraint firstItem="VFq-pG-baw" firstAttribute="top" secondItem="I7V-54-aXE" secondAttribute="top" id="5og-7V-Ffa"/>
+                <constraint firstItem="I7V-54-aXE" firstAttribute="trailing" secondItem="VFq-pG-baw" secondAttribute="trailing" id="Glc-Wr-0Nf"/>
+                <constraint firstItem="I7V-54-aXE" firstAttribute="trailing" secondItem="Xbl-YM-fga" secondAttribute="trailing" constant="10" id="HWA-pR-OyR"/>
+                <constraint firstItem="I7V-54-aXE" firstAttribute="bottom" secondItem="Xbl-YM-fga" secondAttribute="bottom" id="Qkz-I7-Deq"/>
+                <constraint firstItem="Xbl-YM-fga" firstAttribute="top" secondItem="VFq-pG-baw" secondAttribute="bottom" constant="10" id="i5P-2M-5Rn"/>
+                <constraint firstItem="Xbl-YM-fga" firstAttribute="leading" secondItem="I7V-54-aXE" secondAttribute="leading" constant="10" id="rFf-Jt-gZF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="80" y="-115"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

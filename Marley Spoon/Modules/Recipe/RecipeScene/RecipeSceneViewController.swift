@@ -14,6 +14,7 @@ class RecipeSceneViewController: UIViewController {
     private var items = [RecipeScene.ViewModel]()
     
     @IBOutlet weak var collectionView: UICollectionView!
+    var errorView: ErrorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,16 @@ class RecipeSceneViewController: UIViewController {
     func registerCells() {
         self.collectionView.register(UINib(nibName: RecipeCollectionViewCell.identifier, bundle: nil),
                                      forCellWithReuseIdentifier: RecipeCollectionViewCell.identifier)
+    }
+    
+    func createErrorView() {
+        errorView = ErrorView(frame: CGRect(x: 0, y: self.view.frame.height / 2, width: view.frame.width, height: 150))
+        errorView?.setErrorMessage()
+        errorView?.retryAction = { [weak self] in
+            guard let self = self else{ return}
+            self.interactor?.getRecipes()
+        }
+        
     }
     
 }
@@ -76,7 +87,19 @@ extension RecipeSceneViewController: RecipeSceneDisplayView{
     }
     
     func displayError(error: NetworkError) {
-        
+        ProgressHUD.dismiss()
+        showErrorView(message: error.localizedDescription)
+    }
+    
+    private func showErrorView(message: String) {
+        collectionView.isHidden = true
+        self.createErrorView()
+        self.view.addSubview(errorView!)
+    }
+    
+    private func resetCollectionView() {
+        collectionView.isHidden = false
+        errorView!.removeFromSuperview()
     }
     
 }
