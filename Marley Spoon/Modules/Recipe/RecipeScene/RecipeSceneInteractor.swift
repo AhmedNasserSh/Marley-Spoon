@@ -44,7 +44,4 @@ extension RecipeSceneInteractor {
         getRecipes()
     }
     
-    func getRecipe(id: String) -> Recipe? {
-        return currentItems.filter{$0.id == id}.first
-    }
 }

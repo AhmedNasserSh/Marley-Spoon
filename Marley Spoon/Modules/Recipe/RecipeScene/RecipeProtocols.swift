@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol RecipeSceneDisplayView: AnyObject {
     var interactor: RecipeSceneBusinessLogic? {get}
@@ -22,7 +23,6 @@ protocol RecipeSceneBusinessLogic: AnyObject {
     
     func getRecipes()
     func getNewRecipes(currentIndex: Int)
-    func getRecipe(id: String) -> Recipe?
     
 }
 
@@ -38,5 +38,6 @@ protocol RecipeSceneWorkerType {
 }
 
 protocol RecipeSceneRoutingLogic {
-    func displayRecipeDetails(item: Recipe)
+    var view: UIViewController? {get}
+    func displayRecipeDetails(item: RecipeScene.ViewModel)
 }

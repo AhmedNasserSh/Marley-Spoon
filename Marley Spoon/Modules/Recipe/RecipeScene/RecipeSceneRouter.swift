@@ -6,9 +6,15 @@
 //
 
 import Foundation
+import UIKit
+
 class RecipeSceneRouter: RecipeSceneRoutingLogic {
-    func displayRecipeDetails(item: Recipe) {
-        
+    weak var view: UIViewController?
+    
+    func displayRecipeDetails(item: RecipeScene.ViewModel) {
+        let detailsView = RecipeDetailsSceneViewController()
+        detailsView.recipe = item
+        view?.navigationController?.pushViewController(detailsView, animated: true)
     }
     
     

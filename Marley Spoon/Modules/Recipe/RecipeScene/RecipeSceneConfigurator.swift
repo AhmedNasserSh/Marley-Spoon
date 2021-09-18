@@ -9,16 +9,17 @@ import Foundation
 import UIKit
 
 enum RecipeSceneConfigurator {
-    static func configure() -> RecipeSceneViewController {
+    static func configure() -> UINavigationController {
         let view = RecipeSceneViewController()
         let presenter = RecipeScenePresenter(view: view)
         let worker = RecipeWorker(service: RecipeService())
         let interactor = RecipeSceneInteractor(presenter: presenter, worker: worker)
         let router = RecipeSceneRouter()
+        router.view = view
         
         view.interactor = interactor
         view.router = router
         
-        return view
+        return UINavigationController(rootViewController: view)
     }
 }

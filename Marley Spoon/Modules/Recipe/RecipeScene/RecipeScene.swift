@@ -14,5 +14,8 @@ class RecipeScene {
         let image: UIImage
         let title: String
         let subTitle: String
+        let chefName: String?
+        let description: String
+        let tags: [Tag]
     }
 }

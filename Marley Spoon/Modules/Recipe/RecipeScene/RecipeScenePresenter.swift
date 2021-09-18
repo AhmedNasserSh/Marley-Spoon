@@ -26,11 +26,13 @@ extension RecipeScenePresenter {
                  image = displayImage
             }
             let (title,subTitle) = computeTitleAndSubTitle(recipeTitle: recipe.title)
-  
             return RecipeScene.ViewModel(id: recipe.id,
                                          image: image,
                                          title: title,
-                                         subTitle: subTitle)
+                                         subTitle: subTitle,
+                                         chefName: recipe.chef?.name,
+                                         description: recipe.description,
+                                         tags: recipe.tags ?? [])
         }
         
         self.view?.setRecipes(items: recipeViewModels)

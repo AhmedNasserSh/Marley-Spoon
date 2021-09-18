@@ -2,17 +2,22 @@ PODS:
   - Contentful (5.5.1):
     - Contentful/ImageOptions (= 5.5.1)
   - Contentful/ImageOptions (5.5.1)
+  - ProgressHUD (2.70)
 
 DEPENDENCIES:
   - Contentful
+  - ProgressHUD
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ProgressHUD
   trunk:
     - Contentful
 
 SPEC CHECKSUMS:
   Contentful: 5bc3d261fe57fa94a99fe89b904f9f11a0f04331
+  ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
 
-PODFILE CHECKSUM: f73d6c790acc3f98839e46a8e24d4add3cf00b8b
+PODFILE CHECKSUM: 7a4bf70db8050ea12720fe8f87d45a6c0e0e5869
 
 COCOAPODS: 1.10.1

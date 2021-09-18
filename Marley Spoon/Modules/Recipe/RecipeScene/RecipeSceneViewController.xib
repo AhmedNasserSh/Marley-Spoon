@@ -35,7 +35,7 @@
                 </collectionView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="C7U-Cg-nni"/>
-            <color key="backgroundColor" systemColor="systemGray5Color"/>
+            <color key="backgroundColor" systemColor="systemGray6Color"/>
             <constraints>
                 <constraint firstItem="C7U-Cg-nni" firstAttribute="trailing" secondItem="76S-c0-NuO" secondAttribute="trailing" id="Eic-Ni-FrA"/>
                 <constraint firstItem="C7U-Cg-nni" firstAttribute="bottom" secondItem="76S-c0-NuO" secondAttribute="bottom" constant="10" id="Utd-C4-qJl"/>
@@ -46,8 +46,8 @@
         </view>
     </objects>
     <resources>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

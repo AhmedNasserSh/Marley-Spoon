@@ -36,6 +36,10 @@
 		4EECC9AC26F648D9007779DE /* RecipeSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9AB26F648D9007779DE /* RecipeSceneConfigurator.swift */; };
 		4EECC9AE26F64957007779DE /* RecipeSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9AD26F64957007779DE /* RecipeSceneRouter.swift */; };
 		4EECC9B126F64E9A007779DE /* String+RemoveSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9B026F64E9A007779DE /* String+RemoveSpaces.swift */; };
+		4EECC9B926F66318007779DE /* RecipeDetailsSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9B726F66318007779DE /* RecipeDetailsSceneViewController.swift */; };
+		4EECC9BA26F66318007779DE /* RecipeDetailsSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9B826F66318007779DE /* RecipeDetailsSceneViewController.xib */; };
+		4EECC9BE26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9BC26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift */; };
+		4EECC9BF26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */; };
 		DE37D17FA827B7223248007F /* Pods_Marley_Spoon_Marley_SpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F00BBB6714A83B6E8F8A5C8 /* Pods_Marley_Spoon_Marley_SpoonUITests.framework */; };
 		E88EE1A1D6AE3F3EA25990FC /* Pods_Marley_Spoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8257E3FADE5757F2BCDC3 /* Pods_Marley_Spoon.framework */; };
 /* End PBXBuildFile section */
@@ -95,6 +99,10 @@
 		4EECC9AB26F648D9007779DE /* RecipeSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSceneConfigurator.swift; sourceTree = "<group>"; };
 		4EECC9AD26F64957007779DE /* RecipeSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSceneRouter.swift; sourceTree = "<group>"; };
 		4EECC9B026F64E9A007779DE /* String+RemoveSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RemoveSpaces.swift"; sourceTree = "<group>"; };
+		4EECC9B726F66318007779DE /* RecipeDetailsSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsSceneViewController.swift; sourceTree = "<group>"; };
+		4EECC9B826F66318007779DE /* RecipeDetailsSceneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeDetailsSceneViewController.xib; sourceTree = "<group>"; };
+		4EECC9BC26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsSceneCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeDetailsSceneCollectionViewCell.xib; sourceTree = "<group>"; };
 		5F00BBB6714A83B6E8F8A5C8 /* Pods_Marley_Spoon_Marley_SpoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marley_Spoon_Marley_SpoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED178F1846ED2966FFE2F1 /* Pods-Marley SpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marley SpoonTests.debug.xcconfig"; path = "Target Support Files/Pods-Marley SpoonTests/Pods-Marley SpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A27B6C5A91FA0C2E01B1EAD1 /* Pods_Marley_SpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marley_SpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +239,7 @@
 		4EECC98726F63830007779DE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4EECC9B526F661C8007779DE /* RecipeDetails */,
 				4EECC98A26F63865007779DE /* Recipe */,
 			);
 			path = Modules;
@@ -301,6 +310,33 @@
 				4EECC9B026F64E9A007779DE /* String+RemoveSpaces.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4EECC9B526F661C8007779DE /* RecipeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9B626F662E8007779DE /* RecipeDetailsScene */,
+			);
+			path = RecipeDetails;
+			sourceTree = "<group>";
+		};
+		4EECC9B626F662E8007779DE /* RecipeDetailsScene */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9BB26F682F1007779DE /* Cell */,
+				4EECC9B726F66318007779DE /* RecipeDetailsSceneViewController.swift */,
+				4EECC9B826F66318007779DE /* RecipeDetailsSceneViewController.xib */,
+			);
+			path = RecipeDetailsScene;
+			sourceTree = "<group>";
+		};
+		4EECC9BB26F682F1007779DE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9BC26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift */,
+				4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		63EA2F3C72C3EDE8B30DE0DF /* Pods */ = {
@@ -434,9 +470,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EECC9BF26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib in Resources */,
 				4EECC9A826F646DC007779DE /* RecipeCollectionViewCell.xib in Resources */,
 				4EECC9A426F6465E007779DE /* RecipeSceneViewController.xib in Resources */,
 				4E410DD126F0B72D00541749 /* LaunchScreen.storyboard in Resources */,
+				4EECC9BA26F66318007779DE /* RecipeDetailsSceneViewController.xib in Resources */,
 				4E410DCE26F0B72D00541749 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EECC9BE26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift in Sources */,
 				4EECC9AE26F64957007779DE /* RecipeSceneRouter.swift in Sources */,
 				4EECC9A726F646DC007779DE /* RecipeCollectionViewCell.swift in Sources */,
 				4EECC99D26F6423C007779DE /* RecipeScenePresenter.swift in Sources */,
@@ -579,6 +618,7 @@
 				4E410DC226F0B72C00541749 /* AppDelegate.swift in Sources */,
 				4EECC98626F3C413007779DE /* Tag.swift in Sources */,
 				4EECC98026F3C0A0007779DE /* ContentfulProvider.swift in Sources */,
+				4EECC9B926F66318007779DE /* RecipeDetailsSceneViewController.swift in Sources */,
 				4EECC9AC26F648D9007779DE /* RecipeSceneConfigurator.swift in Sources */,
 				4EECC98F26F638C2007779DE /* RecipeService.swift in Sources */,
 				4EECC99726F63BD6007779DE /* RecipeProtocols.swift in Sources */,

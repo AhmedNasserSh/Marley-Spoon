@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipeDetailsSceneCollectionViewCell" id="gTV-IL-0wX" customClass="RecipeDetailsSceneCollectionViewCell" customModule="Marley_Spoon" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="205" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="205" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0kG-Ak-H5I">
+                        <rect key="frame" x="0.0" y="8" width="205" height="34"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrY-gG-WeG">
+                                <rect key="frame" x="5" y="5" width="195" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85882352941176465" green="0.85882352941176465" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mrY-gG-WeG" secondAttribute="bottom" constant="5" id="BxT-wF-4Kr"/>
+                            <constraint firstItem="mrY-gG-WeG" firstAttribute="leading" secondItem="0kG-Ak-H5I" secondAttribute="leading" constant="5" id="Mii-gC-c0s"/>
+                            <constraint firstItem="mrY-gG-WeG" firstAttribute="top" secondItem="0kG-Ak-H5I" secondAttribute="top" constant="5" id="OdZ-jT-U2m"/>
+                            <constraint firstAttribute="trailing" secondItem="mrY-gG-WeG" secondAttribute="trailing" constant="5" id="pef-cx-HRN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0kG-Ak-H5I" secondAttribute="trailing" id="LmQ-oV-oBp"/>
+                <constraint firstItem="0kG-Ak-H5I" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cH4-KQ-k6O"/>
+                <constraint firstItem="0kG-Ak-H5I" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="nVm-g6-qqF"/>
+                <constraint firstAttribute="bottom" secondItem="0kG-Ak-H5I" secondAttribute="bottom" constant="8" id="t6m-tH-Upm"/>
+            </constraints>
+            <size key="customSize" width="205" height="106"/>
+            <connections>
+                <outlet property="tagContainerView" destination="0kG-Ak-H5I" id="GNH-mD-GLv"/>
+                <outlet property="tagLabel" destination="mrY-gG-WeG" id="iUt-Kz-nTN"/>
+            </connections>
+            <point key="canvasLocation" x="176.08695652173915" y="84.375"/>
+        </collectionViewCell>
+    </objects>
+</document>

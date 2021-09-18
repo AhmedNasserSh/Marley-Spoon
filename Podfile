@@ -6,6 +6,8 @@ target 'Marley Spoon' do
   use_frameworks!
 
   pod 'Contentful'
+  pod 'ProgressHUD'
+
   target 'Marley SpoonTests' do
     inherit! :search_paths
     # Pods for testing

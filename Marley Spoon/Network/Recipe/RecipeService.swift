@@ -23,7 +23,6 @@ class RecipeService: NetworkService, RecipeServiceUseCase {
                     completion(.failure(.unknown))
                     return
                 }
-                print(result)
                 switch result {
                 case .success(let response):
                     completion(.success(response.items))
