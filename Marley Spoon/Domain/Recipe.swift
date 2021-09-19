@@ -14,12 +14,13 @@ class Recipe: EntryDecodable, Resource, FieldKeysQueryable {
     var sys: Sys
     
     let title: String
-    var imageAsset: Asset?
     let calories: Int
     let description: String
+    var imageAsset: Asset?
     var chef: Chef?
     var tags: [Tag]?
 
+    
     required init(from decoder: Decoder) throws {
         sys = try decoder.sys()
         let fields = try decoder.contentfulFieldsContainer(keyedBy: FieldKeys.self)

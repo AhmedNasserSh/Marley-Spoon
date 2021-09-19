@@ -40,6 +40,16 @@
 		4EECC9BF26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */; };
 		4EECC9C226F693C9007779DE /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9C126F693C9007779DE /* ErrorView.swift */; };
 		4EECC9C426F693D8007779DE /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9C326F693D8007779DE /* ErrorView.xib */; };
+		4EECC9C926F69EEA007779DE /* RecipePresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9C826F69EEA007779DE /* RecipePresenterMock.swift */; };
+		4EECC9CB26F69F66007779DE /* RecipeInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9CA26F69F66007779DE /* RecipeInteractorMock.swift */; };
+		4EECC9CD26F69F7A007779DE /* RecipeServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9CC26F69F7A007779DE /* RecipeServiceMock.swift */; };
+		4EECC9D526F6A0B1007779DE /* RecipesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EECC9D426F6A0B1007779DE /* RecipesData.json */; };
+		4EECC9D726F6A0BB007779DE /* ResponseMockHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9D626F6A0BB007779DE /* ResponseMockHelper.swift */; };
+		4EECC9DC26F6A1B8007779DE /* RecipesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9DB26F6A1B8007779DE /* RecipesInteractorTests.swift */; };
+		4EECC9DF26F6A4D8007779DE /* RecipeItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9DE26F6A4D8007779DE /* RecipeItems.swift */; };
+		4EECC9E226F6A9D0007779DE /* RecipeViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9E126F6A9D0007779DE /* RecipeViewMock.swift */; };
+		4EECC9E426F6B114007779DE /* RecipesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9E326F6B114007779DE /* RecipesPresenterTests.swift */; };
+		4EECC9E626F6B40C007779DE /* RecipeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC9E526F6B40C007779DE /* RecipeViewTests.swift */; };
 		DE37D17FA827B7223248007F /* Pods_Marley_Spoon_Marley_SpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F00BBB6714A83B6E8F8A5C8 /* Pods_Marley_Spoon_Marley_SpoonUITests.framework */; };
 		E88EE1A1D6AE3F3EA25990FC /* Pods_Marley_Spoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8257E3FADE5757F2BCDC3 /* Pods_Marley_Spoon.framework */; };
 /* End PBXBuildFile section */
@@ -103,6 +113,17 @@
 		4EECC9BD26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeDetailsSceneCollectionViewCell.xib; sourceTree = "<group>"; };
 		4EECC9C126F693C9007779DE /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		4EECC9C326F693D8007779DE /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		4EECC9C726F69EEA007779DE /* Marley SpoonTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marley SpoonTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		4EECC9C826F69EEA007779DE /* RecipePresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePresenterMock.swift; sourceTree = "<group>"; };
+		4EECC9CA26F69F66007779DE /* RecipeInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInteractorMock.swift; sourceTree = "<group>"; };
+		4EECC9CC26F69F7A007779DE /* RecipeServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeServiceMock.swift; sourceTree = "<group>"; };
+		4EECC9D426F6A0B1007779DE /* RecipesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RecipesData.json; sourceTree = "<group>"; };
+		4EECC9D626F6A0BB007779DE /* ResponseMockHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMockHelper.swift; sourceTree = "<group>"; };
+		4EECC9DB26F6A1B8007779DE /* RecipesInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesInteractorTests.swift; sourceTree = "<group>"; };
+		4EECC9DE26F6A4D8007779DE /* RecipeItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItems.swift; sourceTree = "<group>"; };
+		4EECC9E126F6A9D0007779DE /* RecipeViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewMock.swift; sourceTree = "<group>"; };
+		4EECC9E326F6B114007779DE /* RecipesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesPresenterTests.swift; sourceTree = "<group>"; };
+		4EECC9E526F6B40C007779DE /* RecipeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewTests.swift; sourceTree = "<group>"; };
 		5F00BBB6714A83B6E8F8A5C8 /* Pods_Marley_Spoon_Marley_SpoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marley_Spoon_Marley_SpoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED178F1846ED2966FFE2F1 /* Pods-Marley SpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marley SpoonTests.debug.xcconfig"; path = "Target Support Files/Pods-Marley SpoonTests/Pods-Marley SpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A27B6C5A91FA0C2E01B1EAD1 /* Pods_Marley_SpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marley_SpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -351,8 +372,51 @@
 		4EECC9C526F69B2E007779DE /* RecipeModuleTests */ = {
 			isa = PBXGroup;
 			children = (
+				4EECC9E026F6A95A007779DE /* Helpers */,
+				4EECC9D826F6A172007779DE /* Classes */,
+				4EECC9C626F69DAC007779DE /* Support */,
 			);
 			path = RecipeModuleTests;
+			sourceTree = "<group>";
+		};
+		4EECC9C626F69DAC007779DE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9C726F69EEA007779DE /* Marley SpoonTests-Bridging-Header.h */,
+				4EECC9DD26F6A4C6007779DE /* Data */,
+				4EECC9C826F69EEA007779DE /* RecipePresenterMock.swift */,
+				4EECC9CA26F69F66007779DE /* RecipeInteractorMock.swift */,
+				4EECC9CC26F69F7A007779DE /* RecipeServiceMock.swift */,
+				4EECC9E126F6A9D0007779DE /* RecipeViewMock.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4EECC9D826F6A172007779DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9DB26F6A1B8007779DE /* RecipesInteractorTests.swift */,
+				4EECC9E326F6B114007779DE /* RecipesPresenterTests.swift */,
+				4EECC9E526F6B40C007779DE /* RecipeViewTests.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4EECC9DD26F6A4C6007779DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9D426F6A0B1007779DE /* RecipesData.json */,
+				4EECC9DE26F6A4D8007779DE /* RecipeItems.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4EECC9E026F6A95A007779DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4EECC9D626F6A0BB007779DE /* ResponseMockHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		63EA2F3C72C3EDE8B30DE0DF /* Pods */ = {
@@ -453,6 +517,7 @@
 					};
 					4E410DD626F0B72D00541749 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = 4E410DBD26F0B72C00541749;
 					};
 					4E410DE126F0B72D00541749 = {
@@ -500,6 +565,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EECC9D526F6A0B1007779DE /* RecipesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +717,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EECC9E226F6A9D0007779DE /* RecipeViewMock.swift in Sources */,
+				4EECC9CB26F69F66007779DE /* RecipeInteractorMock.swift in Sources */,
+				4EECC9D726F6A0BB007779DE /* ResponseMockHelper.swift in Sources */,
+				4EECC9DC26F6A1B8007779DE /* RecipesInteractorTests.swift in Sources */,
+				4EECC9E426F6B114007779DE /* RecipesPresenterTests.swift in Sources */,
+				4EECC9CD26F69F7A007779DE /* RecipeServiceMock.swift in Sources */,
+				4EECC9DF26F6A4D8007779DE /* RecipeItems.swift in Sources */,
+				4EECC9C926F69EEA007779DE /* RecipePresenterMock.swift in Sources */,
+				4EECC9E626F6B40C007779DE /* RecipeViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +927,7 @@
 			baseConfigurationReference = 9CED178F1846ED2966FFE2F1 /* Pods-Marley SpoonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 959HZ67CJ8;
 				INFOPLIST_FILE = "Marley SpoonTests/Info.plist";
@@ -863,6 +939,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Marley-SpoonTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marley SpoonTests/RecipeModuleTests/Support/Marley SpoonTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marley Spoon.app/Marley Spoon";
@@ -874,6 +952,7 @@
 			baseConfigurationReference = BB7B20FB5612B97DB2D728B7 /* Pods-Marley SpoonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 959HZ67CJ8;
 				INFOPLIST_FILE = "Marley SpoonTests/Info.plist";
@@ -885,6 +964,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Marley-SpoonTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marley SpoonTests/RecipeModuleTests/Support/Marley SpoonTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marley Spoon.app/Marley Spoon";

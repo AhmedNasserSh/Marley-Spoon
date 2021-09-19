@@ -13,7 +13,7 @@ enum RecipeSceneConfigurator {
         let view = RecipeSceneViewController()
         let presenter = RecipeScenePresenter(view: view)
         let worker = RecipeWorker(service: RecipeService())
-        let interactor = RecipeSceneInteractor(presenter: presenter, worker: worker)
+        let interactor = RecipeSceneInteractor(presenter: presenter, worker: worker, limit: 20)
         let router = RecipeSceneRouter()
         router.view = view
         

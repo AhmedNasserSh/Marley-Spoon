@@ -8,14 +8,15 @@
 import Foundation
 class RecipeSceneInteractor: RecipeSceneBusinessLogic {
     private var currentItems = [Recipe]()
-    private let limit = 20
+    private let limit: Int
     private var couldFetchNewData = true
     var presenter: RecipeScenePresentationLogic
     var worker: RecipeSceneWorkerType
 
-    init(presenter: RecipeScenePresentationLogic, worker: RecipeSceneWorkerType) {
+    init(presenter: RecipeScenePresentationLogic, worker: RecipeSceneWorkerType,limit: Int ) {
         self.presenter = presenter
         self.worker = worker
+        self.limit = limit
     }
     
     
@@ -28,9 +29,9 @@ extension RecipeSceneInteractor {
             guard let self = self else {return}
             switch result{
             case .success(let recipes):
-                self.couldFetchNewData = recipes.count > self.limit
+                self.couldFetchNewData = recipes.count >= self.limit
                 self.currentItems.append(contentsOf: recipes)
-                self.presenter.displayRecipes(items: recipes)
+                self.presenter.displayRecipes(items: self.currentItems)
             case .failure(let error):
                 self.presenter.displayError(error: error)
             }
@@ -38,7 +39,7 @@ extension RecipeSceneInteractor {
     }
     
     func getNewRecipes(currentIndex: Int) {
-        guard  currentIndex == currentItems.count - 4 && couldFetchNewData else{
+        guard  currentIndex == currentItems.count - 2 && couldFetchNewData else{
             return
         }
         getRecipes()

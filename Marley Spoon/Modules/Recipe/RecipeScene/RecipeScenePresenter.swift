@@ -25,7 +25,7 @@ extension RecipeScenePresenter {
                let displayImage = UIImage(data: data){
                  image = displayImage
             }
-            let (title,subTitle) = computeTitleAndSubTitle(recipeTitle: recipe.title)
+            let (title,subTitle) = formatTitleAndSubTitle(recipeTitle: recipe.title)
             return RecipeScene.ViewModel(id: recipe.id,
                                          image: image,
                                          title: title,
@@ -37,12 +37,13 @@ extension RecipeScenePresenter {
         
         self.view?.setRecipes(items: recipeViewModels)
     }
-    func computeTitleAndSubTitle(recipeTitle: String) -> (String,String) {
+    
+    private func formatTitleAndSubTitle(recipeTitle: String) -> (String,String) {
         var title = ""
         var subTitle = ""
         let words = recipeTitle.condenseWhitespace().components(separatedBy: "with")
         if words.count == 2 {
-            title = words[0]
+            title = words[0].trimmingCharacters(in: .whitespaces)
             subTitle = "with" + words[1]
         }else {
             title = recipeTitle
@@ -50,6 +51,7 @@ extension RecipeScenePresenter {
         
         return (title,subTitle)
     }
+    
     func displayError(error: NetworkError) {
         self.view?.displayError(error: error)
     }

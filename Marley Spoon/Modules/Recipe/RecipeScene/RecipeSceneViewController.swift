@@ -9,12 +9,16 @@ import UIKit
 import ProgressHUD
 
 class RecipeSceneViewController: UIViewController {
+    @IBOutlet weak var collectionView: UICollectionView!{
+        didSet {
+            registerCells()
+        }
+    }
+    var errorView: ErrorView?
+    
     var interactor: RecipeSceneBusinessLogic?
     var router: RecipeSceneRoutingLogic?
     private var items = [RecipeScene.ViewModel]()
-    
-    @IBOutlet weak var collectionView: UICollectionView!
-    var errorView: ErrorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +26,6 @@ class RecipeSceneViewController: UIViewController {
     }
     
     func initUI() {
-        registerCells()
         ProgressHUD.show()
         interactor?.getRecipes()
     }
