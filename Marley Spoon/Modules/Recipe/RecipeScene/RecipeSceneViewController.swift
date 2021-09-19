@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import ProgressHUD
 
 class RecipeSceneViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!{
@@ -26,7 +25,7 @@ class RecipeSceneViewController: UIViewController {
     }
     
     func initUI() {
-        ProgressHUD.show()
+        showProgess()
         interactor?.getRecipes()
     }
     
@@ -65,11 +64,11 @@ extension RecipeSceneViewController: UICollectionViewDataSource {
 }
 // MARK: - UICollectionViewDelegate
 extension RecipeSceneViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-
+    
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         interactor?.getNewRecipes(currentIndex: indexPath.row)
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let flowayout = collectionViewLayout as? UICollectionViewFlowLayout
         let space: CGFloat = (flowayout?.minimumInteritemSpacing ?? 0.0) + (flowayout?.sectionInset.left ?? 0.0) + (flowayout?.sectionInset.right ?? 0.0)
@@ -84,14 +83,14 @@ extension RecipeSceneViewController: UICollectionViewDelegate, UICollectionViewD
 }
 extension RecipeSceneViewController: RecipeSceneDisplayView{
     func setRecipes(items: [RecipeScene.ViewModel]) {
-        ProgressHUD.dismiss()
+        hidProgress()
         resetCollectionView()
         self.items.append(contentsOf: items)
         self.collectionView.reloadData()
     }
     
     func displayError(error: NetworkError) {
-        ProgressHUD.dismiss()
+        hidProgress()
         showErrorView(message: error.localizedDescription)
     }
     

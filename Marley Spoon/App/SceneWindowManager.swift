@@ -10,7 +10,7 @@ import UIKit
 
 enum SceneWindowManager {
     static func setupWindow(window: UIWindow) {
-        let controller = RecipeSceneConfigurator.configure()
+        let controller = UIStoryboard(name: "TabViewController", bundle: nil).instantiateInitialViewController()
         window.rootViewController = controller
         window.makeKeyAndVisible()
         self.window = window

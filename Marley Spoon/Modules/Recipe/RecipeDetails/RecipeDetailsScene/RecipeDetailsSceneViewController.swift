@@ -8,6 +8,7 @@
 import UIKit
 
 class RecipeDetailsSceneViewController: UIViewController {
+    @IBOutlet weak var chefSepartorView: UIView!
     @IBOutlet weak var recipeImageView: UIImageView!
     @IBOutlet weak var recipeTitleLabel: UILabel!
     @IBOutlet weak var recipeSubTitleLabel: UILabel!
@@ -59,6 +60,7 @@ class RecipeDetailsSceneViewController: UIViewController {
     
     func hideChefName() {
         recipeChefNameLabel.isHidden = true
+        chefSepartorView.isHidden = true
     }
     
     func checkTags() {

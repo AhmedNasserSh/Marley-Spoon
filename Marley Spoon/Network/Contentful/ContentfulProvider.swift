@@ -24,6 +24,8 @@ final class ContentfulProvider {
     private static var contentTypeClasses: [EntryDecodable.Type] = [
         Recipe.self,
         Chef.self,
-        Tag.self
+        Tag.self,
+        FAQSection.self,
+        FAQSectionItem.self
     ]
 }

@@ -16,6 +16,22 @@
 		4E92231C26F71C8300A9C359 /* RecipeModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92231B26F71C8300A9C359 /* RecipeModuleUITests.swift */; };
 		4E92231F26F71D9B00A9C359 /* AccessibilityIdsReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92231E26F71D9B00A9C359 /* AccessibilityIdsReference.swift */; };
 		4E92232126F7288A00A9C359 /* RecipeDetailsModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92232026F7288A00A9C359 /* RecipeDetailsModuleUITests.swift */; };
+		4E92232526F73A0B00A9C359 /* FAQSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92232426F73A0B00A9C359 /* FAQSectionItem.swift */; };
+		4E92232726F73B9F00A9C359 /* FAQSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92232626F73B9F00A9C359 /* FAQSection.swift */; };
+		4E92232B26F73F0900A9C359 /* FAQService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92232A26F73F0900A9C359 /* FAQService.swift */; };
+		4E92232F26F73F9A00A9C359 /* FAQProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92232E26F73F9A00A9C359 /* FAQProtocols.swift */; };
+		4E92233126F73FE900A9C359 /* FAQScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92233026F73FE900A9C359 /* FAQScene.swift */; };
+		4E92233326F7432000A9C359 /* FAQSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92233226F7432000A9C359 /* FAQSceneInteractor.swift */; };
+		4E92233526F7440000A9C359 /* FAQScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92233426F7440000A9C359 /* FAQScenePresenter.swift */; };
+		4E92233826F74C9900A9C359 /* FAQSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92233626F74C9900A9C359 /* FAQSceneViewController.swift */; };
+		4E92233926F74C9900A9C359 /* FAQSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E92233726F74C9900A9C359 /* FAQSceneViewController.xib */; };
+		4E92233D26F74D7700A9C359 /* FAQSceneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92233B26F74D7700A9C359 /* FAQSceneTableViewCell.swift */; };
+		4E92233E26F74D7700A9C359 /* FAQSceneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E92233C26F74D7700A9C359 /* FAQSceneTableViewCell.xib */; };
+		4E92234026F7562700A9C359 /* FAQSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92233F26F7562700A9C359 /* FAQSceneConfigurator.swift */; };
+		4E92234226F7566200A9C359 /* FAQSceneWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92234126F7566200A9C359 /* FAQSceneWorker.swift */; };
+		4E92234426F7587800A9C359 /* TabViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E92234326F7587800A9C359 /* TabViewController.storyboard */; };
+		4E92234926F75A3D00A9C359 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92234826F75A3D00A9C359 /* TabBarViewController.swift */; };
+		4E92234B26F75F4100A9C359 /* UIViewController+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92234A26F75F4100A9C359 /* UIViewController+Progress.swift */; };
 		4EECC98026F3C0A0007779DE /* ContentfulProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC97F26F3C0A0007779DE /* ContentfulProvider.swift */; };
 		4EECC98226F3C0FC007779DE /* ContentfulCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC98126F3C0FC007779DE /* ContentfulCredentials.swift */; };
 		4EECC98426F3C37E007779DE /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC98326F3C37E007779DE /* Chef.swift */; };
@@ -90,6 +106,22 @@
 		4E92231B26F71C8300A9C359 /* RecipeModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModuleUITests.swift; sourceTree = "<group>"; };
 		4E92231E26F71D9B00A9C359 /* AccessibilityIdsReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdsReference.swift; sourceTree = "<group>"; };
 		4E92232026F7288A00A9C359 /* RecipeDetailsModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsModuleUITests.swift; sourceTree = "<group>"; };
+		4E92232426F73A0B00A9C359 /* FAQSectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSectionItem.swift; sourceTree = "<group>"; };
+		4E92232626F73B9F00A9C359 /* FAQSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSection.swift; sourceTree = "<group>"; };
+		4E92232A26F73F0900A9C359 /* FAQService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQService.swift; sourceTree = "<group>"; };
+		4E92232E26F73F9A00A9C359 /* FAQProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQProtocols.swift; sourceTree = "<group>"; };
+		4E92233026F73FE900A9C359 /* FAQScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQScene.swift; sourceTree = "<group>"; };
+		4E92233226F7432000A9C359 /* FAQSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSceneInteractor.swift; sourceTree = "<group>"; };
+		4E92233426F7440000A9C359 /* FAQScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQScenePresenter.swift; sourceTree = "<group>"; };
+		4E92233626F74C9900A9C359 /* FAQSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSceneViewController.swift; sourceTree = "<group>"; };
+		4E92233726F74C9900A9C359 /* FAQSceneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQSceneViewController.xib; sourceTree = "<group>"; };
+		4E92233B26F74D7700A9C359 /* FAQSceneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSceneTableViewCell.swift; sourceTree = "<group>"; };
+		4E92233C26F74D7700A9C359 /* FAQSceneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQSceneTableViewCell.xib; sourceTree = "<group>"; };
+		4E92233F26F7562700A9C359 /* FAQSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSceneConfigurator.swift; sourceTree = "<group>"; };
+		4E92234126F7566200A9C359 /* FAQSceneWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQSceneWorker.swift; sourceTree = "<group>"; };
+		4E92234326F7587800A9C359 /* TabViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabViewController.storyboard; sourceTree = "<group>"; };
+		4E92234826F75A3D00A9C359 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4E92234A26F75F4100A9C359 /* UIViewController+Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Progress.swift"; sourceTree = "<group>"; };
 		4EECC97A26F3BFF6007779DE /* Credentials.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Credentials.xcconfig; sourceTree = "<group>"; };
 		4EECC97F26F3C0A0007779DE /* ContentfulProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentfulProvider.swift; sourceTree = "<group>"; };
 		4EECC98126F3C0FC007779DE /* ContentfulCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentfulCredentials.swift; sourceTree = "<group>"; };
@@ -224,9 +256,8 @@
 		4E410DF426F0C2D200541749 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				4E410DF526F0C44000541749 /* Recipe.swift */,
-				4EECC98326F3C37E007779DE /* Chef.swift */,
-				4EECC98526F3C413007779DE /* Tag.swift */,
+				4E92232326F738B500A9C359 /* Faq */,
+				4E92232226F7387E00A9C359 /* Recipe */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -237,6 +268,84 @@
 				4E92231E26F71D9B00A9C359 /* AccessibilityIdsReference.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		4E92232226F7387E00A9C359 /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				4E410DF526F0C44000541749 /* Recipe.swift */,
+				4EECC98326F3C37E007779DE /* Chef.swift */,
+				4EECC98526F3C413007779DE /* Tag.swift */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		4E92232326F738B500A9C359 /* Faq */ = {
+			isa = PBXGroup;
+			children = (
+				4E92232426F73A0B00A9C359 /* FAQSectionItem.swift */,
+				4E92232626F73B9F00A9C359 /* FAQSection.swift */,
+			);
+			path = Faq;
+			sourceTree = "<group>";
+		};
+		4E92232826F73EF000A9C359 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4E92232926F73EFB00A9C359 /* FAQ */,
+				4EECC98D26F638AD007779DE /* Recipe */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4E92232926F73EFB00A9C359 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				4E92232A26F73F0900A9C359 /* FAQService.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		4E92232C26F73F6300A9C359 /* FAQScene */ = {
+			isa = PBXGroup;
+			children = (
+				4E92233A26F74D5A00A9C359 /* Cell */,
+				4E92232D26F73F8B00A9C359 /* Worker */,
+				4E92232E26F73F9A00A9C359 /* FAQProtocols.swift */,
+				4E92233026F73FE900A9C359 /* FAQScene.swift */,
+				4E92233226F7432000A9C359 /* FAQSceneInteractor.swift */,
+				4E92233426F7440000A9C359 /* FAQScenePresenter.swift */,
+				4E92233626F74C9900A9C359 /* FAQSceneViewController.swift */,
+				4E92233726F74C9900A9C359 /* FAQSceneViewController.xib */,
+				4E92233F26F7562700A9C359 /* FAQSceneConfigurator.swift */,
+			);
+			path = FAQScene;
+			sourceTree = "<group>";
+		};
+		4E92232D26F73F8B00A9C359 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				4E92234126F7566200A9C359 /* FAQSceneWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		4E92233A26F74D5A00A9C359 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4E92233B26F74D7700A9C359 /* FAQSceneTableViewCell.swift */,
+				4E92233C26F74D7700A9C359 /* FAQSceneTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4E92234526F7587C00A9C359 /* TabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4E92234326F7587800A9C359 /* TabViewController.storyboard */,
+				4E92234826F75A3D00A9C359 /* TabBarViewController.swift */,
+			);
+			path = TabViewController;
 			sourceTree = "<group>";
 		};
 		4EECC97C26F3C001007779DE /* App */ = {
@@ -255,7 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				4EECC99326F63B3E007779DE /* Base */,
-				4EECC98D26F638AD007779DE /* Recipe */,
+				4E92232826F73EF000A9C359 /* Service */,
 				4EECC97E26F3C087007779DE /* Contentful */,
 			);
 			path = Network;
@@ -273,9 +382,10 @@
 		4EECC98726F63830007779DE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4E92234526F7587C00A9C359 /* TabViewController */,
 				4EECC9C026F693AB007779DE /* Shared */,
-				4EECC9B526F661C8007779DE /* RecipeDetails */,
 				4EECC98A26F63865007779DE /* Recipe */,
+				4E92232C26F73F6300A9C359 /* FAQScene */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -309,6 +419,7 @@
 			children = (
 				4EECC98826F63854007779DE /* Worker */,
 				4EECC98926F6385A007779DE /* RecipeScene */,
+				4EECC9B526F661C8007779DE /* RecipeDetails */,
 			);
 			path = Recipe;
 			sourceTree = "<group>";
@@ -343,6 +454,7 @@
 			isa = PBXGroup;
 			children = (
 				4EECC9B026F64E9A007779DE /* String+RemoveSpaces.swift */,
+				4E92234A26F75F4100A9C359 /* UIViewController+Progress.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -565,9 +677,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E92233926F74C9900A9C359 /* FAQSceneViewController.xib in Resources */,
 				4EECC9BF26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.xib in Resources */,
+				4E92233E26F74D7700A9C359 /* FAQSceneTableViewCell.xib in Resources */,
 				4EECC9A826F646DC007779DE /* RecipeCollectionViewCell.xib in Resources */,
 				4EECC9A426F6465E007779DE /* RecipeSceneViewController.xib in Resources */,
+				4E92234426F7587800A9C359 /* TabViewController.storyboard in Resources */,
 				4E410DD126F0B72D00541749 /* LaunchScreen.storyboard in Resources */,
 				4EECC9C426F693D8007779DE /* ErrorView.xib in Resources */,
 				4EECC9BA26F66318007779DE /* RecipeDetailsSceneViewController.xib in Resources */,
@@ -704,23 +819,36 @@
 				4EECC9BE26F6830E007779DE /* RecipeDetailsSceneCollectionViewCell.swift in Sources */,
 				4EECC9AE26F64957007779DE /* RecipeSceneRouter.swift in Sources */,
 				4EECC9A726F646DC007779DE /* RecipeCollectionViewCell.swift in Sources */,
+				4E92234926F75A3D00A9C359 /* TabBarViewController.swift in Sources */,
 				4EECC99D26F6423C007779DE /* RecipeScenePresenter.swift in Sources */,
+				4E92234B26F75F4100A9C359 /* UIViewController+Progress.swift in Sources */,
 				4EECC99226F639A8007779DE /* NetworkService.swift in Sources */,
+				4E92232F26F73F9A00A9C359 /* FAQProtocols.swift in Sources */,
+				4E92233D26F74D7700A9C359 /* FAQSceneTableViewCell.swift in Sources */,
+				4E92234026F7562700A9C359 /* FAQSceneConfigurator.swift in Sources */,
 				4EECC99B26F640A5007779DE /* RecipeSceneInteractor.swift in Sources */,
 				4EECC9A126F64612007779DE /* RecipeSceneViewController.swift in Sources */,
+				4E92234226F7566200A9C359 /* FAQSceneWorker.swift in Sources */,
 				4EECC98226F3C0FC007779DE /* ContentfulCredentials.swift in Sources */,
+				4E92233126F73FE900A9C359 /* FAQScene.swift in Sources */,
 				4EECC99926F63C38007779DE /* RecipeScene.swift in Sources */,
 				4EECC98426F3C37E007779DE /* Chef.swift in Sources */,
+				4E92233326F7432000A9C359 /* FAQSceneInteractor.swift in Sources */,
 				4E410DF626F0C44000541749 /* Recipe.swift in Sources */,
 				4E410DC226F0B72C00541749 /* AppDelegate.swift in Sources */,
 				4EECC98626F3C413007779DE /* Tag.swift in Sources */,
 				4EECC98026F3C0A0007779DE /* ContentfulProvider.swift in Sources */,
 				4EECC9B926F66318007779DE /* RecipeDetailsSceneViewController.swift in Sources */,
 				4EECC9AC26F648D9007779DE /* RecipeSceneConfigurator.swift in Sources */,
+				4E92232526F73A0B00A9C359 /* FAQSectionItem.swift in Sources */,
 				4EECC98F26F638C2007779DE /* RecipeService.swift in Sources */,
 				4EECC99726F63BD6007779DE /* RecipeProtocols.swift in Sources */,
+				4E92232726F73B9F00A9C359 /* FAQSection.swift in Sources */,
 				4EECC99526F63B4C007779DE /* NetworkError.swift in Sources */,
 				4E410DC426F0B72C00541749 /* SceneDelegate.swift in Sources */,
+				4E92233526F7440000A9C359 /* FAQScenePresenter.swift in Sources */,
+				4E92232B26F73F0900A9C359 /* FAQService.swift in Sources */,
+				4E92233826F74C9900A9C359 /* FAQSceneViewController.swift in Sources */,
 				4EECC9B126F64E9A007779DE /* String+RemoveSpaces.swift in Sources */,
 				4EECC9AA26F648B5007779DE /* SceneWindowManager.swift in Sources */,
 				4EECC98C26F63895007779DE /* RecipeWorker.swift in Sources */,

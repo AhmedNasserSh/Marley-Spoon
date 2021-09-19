@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecipeDetailsSceneViewController" customModule="Marley_Spoon" customModuleProvider="target">
             <connections>
+                <outlet property="chefSepartorView" destination="YrT-0B-5dM" id="gjc-qy-M43"/>
                 <outlet property="recipeChefNameLabel" destination="i5Q-zE-OVm" id="0cI-VO-3Dq"/>
                 <outlet property="recipeDesciptionLabel" destination="LcY-ch-Fk1" id="UNh-2h-Z8d"/>
                 <outlet property="recipeImageView" destination="sXo-mE-zNz" id="RHH-eB-lCg"/>
