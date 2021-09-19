@@ -12,10 +12,10 @@ Recipes              |  Recipes Details | FAQ
 ## Implemented Using
 
 - VIP architecture 
-- Contentful for fetching content
+- Contentful Content Delivery API
 - ProgressHUD for Loading View
 - Nib files for views
-- Contentful marley spoon API 
+- Contentful Pod for Prasing Contentful API Data
 
    
 ## Testing
