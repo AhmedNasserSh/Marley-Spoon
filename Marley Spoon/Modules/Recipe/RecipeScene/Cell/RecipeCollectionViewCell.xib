@@ -22,6 +22,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tzt-Ed-jm9">
                                 <rect key="frame" x="0.0" y="0.0" width="483" height="150"/>
+                                <accessibility key="accessibilityConfiguration" identifier="recipeImageViewIdentifier"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="MWE-j7-t2g"/>
                                 </constraints>
@@ -31,12 +32,14 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dA-pQ-c0p">
                                         <rect key="frame" x="0.0" y="0.0" width="467" height="80"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="recipeTitleLabelIdentifier"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTd-KU-5vj">
                                         <rect key="frame" x="0.0" y="80" width="467" height="68"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="recipeSubTitleLabelIdentifier"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>

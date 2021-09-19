@@ -13,9 +13,11 @@ class RecipeCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var recipeSubTitleLabel: UILabel!
     static let identifier = "RecipeCollectionViewCell"
     
+    
     func configure(recipe: RecipeScene.ViewModel) {
         self.recipeImageView.image = recipe.image
         self.recipeTitleLabel.text = recipe.title
         self.recipeSubTitleLabel.text = recipe.subTitle
+        
     }
 }

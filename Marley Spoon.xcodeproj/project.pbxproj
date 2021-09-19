@@ -12,8 +12,10 @@
 		4E410DC426F0B72C00541749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DC326F0B72C00541749 /* SceneDelegate.swift */; };
 		4E410DCE26F0B72D00541749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E410DCD26F0B72D00541749 /* Assets.xcassets */; };
 		4E410DD126F0B72D00541749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E410DCF26F0B72D00541749 /* LaunchScreen.storyboard */; };
-		4E410DE726F0B72D00541749 /* Marley_SpoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DE626F0B72D00541749 /* Marley_SpoonUITests.swift */; };
 		4E410DF626F0C44000541749 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E410DF526F0C44000541749 /* Recipe.swift */; };
+		4E92231C26F71C8300A9C359 /* RecipeModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92231B26F71C8300A9C359 /* RecipeModuleUITests.swift */; };
+		4E92231F26F71D9B00A9C359 /* AccessibilityIdsReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92231E26F71D9B00A9C359 /* AccessibilityIdsReference.swift */; };
+		4E92232126F7288A00A9C359 /* RecipeDetailsModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92232026F7288A00A9C359 /* RecipeDetailsModuleUITests.swift */; };
 		4EECC98026F3C0A0007779DE /* ContentfulProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC97F26F3C0A0007779DE /* ContentfulProvider.swift */; };
 		4EECC98226F3C0FC007779DE /* ContentfulCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC98126F3C0FC007779DE /* ContentfulCredentials.swift */; };
 		4EECC98426F3C37E007779DE /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC98326F3C37E007779DE /* Chef.swift */; };
@@ -83,9 +85,11 @@
 		4E410DD726F0B72D00541749 /* Marley SpoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marley SpoonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E410DDD26F0B72D00541749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E410DE226F0B72D00541749 /* Marley SpoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marley SpoonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E410DE626F0B72D00541749 /* Marley_SpoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marley_SpoonUITests.swift; sourceTree = "<group>"; };
 		4E410DE826F0B72D00541749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E410DF526F0C44000541749 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		4E92231B26F71C8300A9C359 /* RecipeModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModuleUITests.swift; sourceTree = "<group>"; };
+		4E92231E26F71D9B00A9C359 /* AccessibilityIdsReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdsReference.swift; sourceTree = "<group>"; };
+		4E92232026F7288A00A9C359 /* RecipeDetailsModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsModuleUITests.swift; sourceTree = "<group>"; };
 		4EECC97A26F3BFF6007779DE /* Credentials.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Credentials.xcconfig; sourceTree = "<group>"; };
 		4EECC97F26F3C0A0007779DE /* ContentfulProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentfulProvider.swift; sourceTree = "<group>"; };
 		4EECC98126F3C0FC007779DE /* ContentfulCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentfulCredentials.swift; sourceTree = "<group>"; };
@@ -209,8 +213,10 @@
 		4E410DE526F0B72D00541749 /* Marley SpoonUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4E410DE626F0B72D00541749 /* Marley_SpoonUITests.swift */,
+				4E92231D26F71D7F00A9C359 /* Support */,
 				4E410DE826F0B72D00541749 /* Info.plist */,
+				4E92231B26F71C8300A9C359 /* RecipeModuleUITests.swift */,
+				4E92232026F7288A00A9C359 /* RecipeDetailsModuleUITests.swift */,
 			);
 			path = "Marley SpoonUITests";
 			sourceTree = "<group>";
@@ -223,6 +229,14 @@
 				4EECC98526F3C413007779DE /* Tag.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		4E92231D26F71D7F00A9C359 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4E92231E26F71D9B00A9C359 /* AccessibilityIdsReference.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		4EECC97C26F3C001007779DE /* App */ = {
@@ -733,7 +747,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E410DE726F0B72D00541749 /* Marley_SpoonUITests.swift in Sources */,
+				4E92232126F7288A00A9C359 /* RecipeDetailsModuleUITests.swift in Sources */,
+				4E92231F26F71D9B00A9C359 /* AccessibilityIdsReference.swift in Sources */,
+				4E92231C26F71C8300A9C359 /* RecipeModuleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
