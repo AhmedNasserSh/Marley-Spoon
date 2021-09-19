@@ -1,0 +1,394 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 2,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "kk2bw5ojx476"
+                    }
+                },
+                "id": "7xxJXKl94kF61ui68fYOEs",
+                "type": "Entry",
+                "createdAt": "2020-04-20T16:56:02.830Z",
+                "updatedAt": "2020-04-29T10:26:57.043Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 2,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "faqSection"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Offer",
+                "items": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "4kbW4ttMRN4VLEw5HDr3kn"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6KIy6mu0sgOUYDYUMimlr0"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "kk2bw5ojx476"
+                    }
+                },
+                "id": "2nJ2wWxJyVduUFG29PxFzH",
+                "type": "Entry",
+                "createdAt": "2020-04-20T16:55:18.340Z",
+                "updatedAt": "2020-04-20T16:55:18.340Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "faqSection"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "What is Marley Spoon",
+                "items": [
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "5tLcIBPgXfaFRRq4FEpR5U"
+                        }
+                    },
+                    {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Entry",
+                            "id": "6twgUYy3f0M12r4kXXABls"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "includes": {
+        "Entry": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "kk2bw5ojx476"
+                        }
+                    },
+                    "id": "4kbW4ttMRN4VLEw5HDr3kn",
+                    "type": "Entry",
+                    "createdAt": "2020-04-20T16:55:54.052Z",
+                    "updatedAt": "2020-04-20T16:55:54.052Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "faqSectionItem"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "question": "Do you serve vegans?",
+                    "answer": {
+                        "nodeType": "document",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "paragraph",
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "YEAH!",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "kk2bw5ojx476"
+                        }
+                    },
+                    "id": "5tLcIBPgXfaFRRq4FEpR5U",
+                    "type": "Entry",
+                    "createdAt": "2020-04-20T16:54:32.455Z",
+                    "updatedAt": "2020-04-20T16:54:32.455Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "faqSectionItem"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "question": "Where did the company come from?",
+                    "answer": {
+                        "nodeType": "document",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "paragraph",
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "It came from Berlin. ",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "paragraph",
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "And it's awesome! ♥️",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "kk2bw5ojx476"
+                        }
+                    },
+                    "id": "6KIy6mu0sgOUYDYUMimlr0",
+                    "type": "Entry",
+                    "createdAt": "2020-04-29T10:26:33.851Z",
+                    "updatedAt": "2020-04-29T10:26:40.019Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "faqSectionItem"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "question": "Do you have pao de queijo?",
+                    "answer": {
+                        "nodeType": "document",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "paragraph",
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "No man, we don't sorry. Ask Iguatemi",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "kk2bw5ojx476"
+                        }
+                    },
+                    "id": "6twgUYy3f0M12r4kXXABls",
+                    "type": "Entry",
+                    "createdAt": "2020-04-20T16:55:13.758Z",
+                    "updatedAt": "2020-04-20T16:55:13.758Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "faqSectionItem"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "question": "When do you deliver?",
+                    "answer": {
+                        "nodeType": "document",
+                        "data": {},
+                        "content": [
+                            {
+                                "nodeType": "unordered-list",
+                                "content": [
+                                    {
+                                        "nodeType": "list-item",
+                                        "data": {},
+                                        "content": [
+                                            {
+                                                "nodeType": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "nodeType": "text",
+                                                        "value": "Mondays - 20h - 22h",
+                                                        "marks": [],
+                                                        "data": {}
+                                                    }
+                                                ],
+                                                "data": {}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "nodeType": "list-item",
+                                        "content": [
+                                            {
+                                                "nodeType": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "nodeType": "text",
+                                                        "value": "Fridays - 12h - 16h",
+                                                        "marks": [],
+                                                        "data": {}
+                                                    }
+                                                ],
+                                                "data": {}
+                                            }
+                                        ],
+                                        "data": {}
+                                    }
+                                ],
+                                "data": {}
+                            },
+                            {
+                                "nodeType": "paragraph",
+                                "content": [
+                                    {
+                                        "nodeType": "text",
+                                        "value": "",
+                                        "marks": [],
+                                        "data": {}
+                                    }
+                                ],
+                                "data": {}
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

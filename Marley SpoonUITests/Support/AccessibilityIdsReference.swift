@@ -9,7 +9,7 @@ import Foundation
 enum AccessibilityIdsReference {
 }
 
-//MARK: Home Scene
+//MARK: Recipe Scene
 extension AccessibilityIdsReference {
     enum RecipeSceneIds :String{
         case recipeTitleLabelIdentifier
@@ -19,7 +19,7 @@ extension AccessibilityIdsReference {
     }
 }
 
-//MARK: Charcter Details Scene
+//MARK: Recipe Details Scene
 extension AccessibilityIdsReference {
     enum RecipeSceneSceneIds :String {
         case recipeSceneDetailsImageViewIdentifier

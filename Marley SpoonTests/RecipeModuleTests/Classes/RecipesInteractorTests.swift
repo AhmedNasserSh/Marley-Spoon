@@ -30,7 +30,7 @@ class RecipesInteractorTests: XCTestCase {
     func testFetchRecipes() throws {
         // fetch recipes
         interactor?.getRecipes()
-        XCTAssertTrue(presenterMock!.items.count > 0, "Interactor doesn't Fetch charcter correctly")
+        XCTAssertTrue(presenterMock!.items.count > 0, "Interactor doesn't Fetch data correctly")
     }
     
     func testFetchNewItems() throws {
@@ -38,7 +38,7 @@ class RecipesInteractorTests: XCTestCase {
         interactor?.getRecipes()
         // try to fetch new recipes
         interactor?.getNewRecipes(currentIndex: 0)
-        XCTAssertTrue(presenterMock!.items.count == 4, "Interactor doesn't Fetch charcter correctly")
+        XCTAssertTrue(presenterMock!.items.count == 4, "Interactor doesn't Fetch data correctly")
     }
 
     func testNotFetchNewItems() throws {
@@ -49,6 +49,6 @@ class RecipesInteractorTests: XCTestCase {
         interactor?.getNewRecipes(currentIndex: 0)
         interactor?.getNewRecipes(currentIndex: 0)
 
-        XCTAssertTrue(presenterMock!.items.count == 4, "Interactor doesn't Fetch charcter correctly")
+        XCTAssertTrue(presenterMock!.items.count == 4, "Interactor doesn't Fetch data correctly")
     }
 }
