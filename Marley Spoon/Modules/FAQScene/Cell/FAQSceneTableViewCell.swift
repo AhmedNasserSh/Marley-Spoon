@@ -11,11 +11,15 @@ class FAQSceneTableViewCell: UITableViewCell {
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var arrowImage: UIImageView!
+    @IBOutlet weak var cellView: UIView!
     
     static let identifier = "FAQSceneTableViewCell"
     let arrowUp = "arrowUp"
     let arrowDown = "arrowDown"
 
+    override func awakeFromNib() {
+        self.cellView.layer.cornerRadius = 5
+    }
     func configure(item: FAQScene.FAQViewSectionItem) {
         self.questionLabel.text = item.question
         self.answerLabel.text = item.answer

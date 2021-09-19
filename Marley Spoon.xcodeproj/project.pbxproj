@@ -41,6 +41,8 @@
 		4E92235F26F76B5900A9C359 /* FAQInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92235E26F76B5900A9C359 /* FAQInteractorTests.swift */; };
 		4E92236126F76C4E00A9C359 /* FAQPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92236026F76C4E00A9C359 /* FAQPresenterTests.swift */; };
 		4E92236326F76D9400A9C359 /* FAQViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92236226F76D9400A9C359 /* FAQViewTests.swift */; };
+		4E96DF7526F7A0D900BD67D9 /* FAQHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E96DF7426F7A0D900BD67D9 /* FAQHeaderView.swift */; };
+		4E96DF7726F7A0EA00BD67D9 /* FAQHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E96DF7626F7A0EA00BD67D9 /* FAQHeaderView.xib */; };
 		4EECC98026F3C0A0007779DE /* ContentfulProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC97F26F3C0A0007779DE /* ContentfulProvider.swift */; };
 		4EECC98226F3C0FC007779DE /* ContentfulCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC98126F3C0FC007779DE /* ContentfulCredentials.swift */; };
 		4EECC98426F3C37E007779DE /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECC98326F3C37E007779DE /* Chef.swift */; };
@@ -140,6 +142,8 @@
 		4E92235E26F76B5900A9C359 /* FAQInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQInteractorTests.swift; sourceTree = "<group>"; };
 		4E92236026F76C4E00A9C359 /* FAQPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQPresenterTests.swift; sourceTree = "<group>"; };
 		4E92236226F76D9400A9C359 /* FAQViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewTests.swift; sourceTree = "<group>"; };
+		4E96DF7426F7A0D900BD67D9 /* FAQHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQHeaderView.swift; sourceTree = "<group>"; };
+		4E96DF7626F7A0EA00BD67D9 /* FAQHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQHeaderView.xib; sourceTree = "<group>"; };
 		4EECC97A26F3BFF6007779DE /* Credentials.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Credentials.xcconfig; sourceTree = "<group>"; };
 		4EECC97F26F3C0A0007779DE /* ContentfulProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentfulProvider.swift; sourceTree = "<group>"; };
 		4EECC98126F3C0FC007779DE /* ContentfulCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentfulCredentials.swift; sourceTree = "<group>"; };
@@ -329,6 +333,7 @@
 		4E92232C26F73F6300A9C359 /* FAQScene */ = {
 			isa = PBXGroup;
 			children = (
+				4E96DF7326F7A0BD00BD67D9 /* Custom */,
 				4E92233A26F74D5A00A9C359 /* Cell */,
 				4E92232D26F73F8B00A9C359 /* Worker */,
 				4E92232E26F73F9A00A9C359 /* FAQProtocols.swift */,
@@ -406,6 +411,15 @@
 				4E92235426F76A1100A9C359 /* FAQItems.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		4E96DF7326F7A0BD00BD67D9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4E96DF7426F7A0D900BD67D9 /* FAQHeaderView.swift */,
+				4E96DF7626F7A0EA00BD67D9 /* FAQHeaderView.xib */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		4EECC97C26F3C001007779DE /* App */ = {
@@ -746,6 +760,7 @@
 				4EECC9C426F693D8007779DE /* ErrorView.xib in Resources */,
 				4EECC9BA26F66318007779DE /* RecipeDetailsSceneViewController.xib in Resources */,
 				4E410DCE26F0B72D00541749 /* Assets.xcassets in Resources */,
+				4E96DF7726F7A0EA00BD67D9 /* FAQHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -901,6 +916,7 @@
 				4EECC9B926F66318007779DE /* RecipeDetailsSceneViewController.swift in Sources */,
 				4EECC9AC26F648D9007779DE /* RecipeSceneConfigurator.swift in Sources */,
 				4E92232526F73A0B00A9C359 /* FAQSectionItem.swift in Sources */,
+				4E96DF7526F7A0D900BD67D9 /* FAQHeaderView.swift in Sources */,
 				4EECC98F26F638C2007779DE /* RecipeService.swift in Sources */,
 				4EECC99726F63BD6007779DE /* RecipeProtocols.swift in Sources */,
 				4E92232726F73B9F00A9C359 /* FAQSection.swift in Sources */,

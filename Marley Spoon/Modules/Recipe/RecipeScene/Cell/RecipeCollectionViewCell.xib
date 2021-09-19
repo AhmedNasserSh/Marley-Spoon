@@ -69,6 +69,7 @@
             </constraints>
             <size key="customSize" width="493" height="111"/>
             <connections>
+                <outlet property="cellView" destination="77o-NF-Onw" id="HpL-90-Hhf"/>
                 <outlet property="recipeImageView" destination="Tzt-Ed-jm9" id="d6O-kA-Pz4"/>
                 <outlet property="recipeSubTitleLabel" destination="uTd-KU-5vj" id="HJ2-aP-DvB"/>
                 <outlet property="recipeTitleLabel" destination="1dA-pQ-c0p" id="khy-ty-Bh5"/>

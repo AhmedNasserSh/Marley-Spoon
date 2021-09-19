@@ -23,6 +23,17 @@ class FAQSceneViewController: UIViewController {
         setUI()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    
     func setUI() {
         showProgess()
         self.interactor?.getFAQs()
@@ -54,8 +65,15 @@ extension FAQSceneViewController: UITableViewDelegate, UITableViewDataSource {
                                      id: item.id)
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return sectionItems[section].title
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = FAQHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 50))
+        headerView.setTitle(title:sectionItems[section].title)
+        return headerView
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 50
     }
     
 }
