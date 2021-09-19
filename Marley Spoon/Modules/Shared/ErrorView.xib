@@ -26,7 +26,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbl-YM-fga">
-                    <rect key="frame" x="10" y="76" width="551" height="40"/>
+                    <rect key="frame" x="20" y="76" width="531" height="40"/>
                     <color key="backgroundColor" systemColor="systemRedColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="uwz-9i-Uzb"/>
@@ -45,10 +45,10 @@
                 <constraint firstItem="VFq-pG-baw" firstAttribute="leading" secondItem="I7V-54-aXE" secondAttribute="leading" id="5Na-Fe-T1O"/>
                 <constraint firstItem="VFq-pG-baw" firstAttribute="top" secondItem="I7V-54-aXE" secondAttribute="top" id="5og-7V-Ffa"/>
                 <constraint firstItem="I7V-54-aXE" firstAttribute="trailing" secondItem="VFq-pG-baw" secondAttribute="trailing" id="Glc-Wr-0Nf"/>
-                <constraint firstItem="I7V-54-aXE" firstAttribute="trailing" secondItem="Xbl-YM-fga" secondAttribute="trailing" constant="10" id="HWA-pR-OyR"/>
+                <constraint firstItem="I7V-54-aXE" firstAttribute="trailing" secondItem="Xbl-YM-fga" secondAttribute="trailing" constant="20" id="HWA-pR-OyR"/>
                 <constraint firstItem="I7V-54-aXE" firstAttribute="bottom" secondItem="Xbl-YM-fga" secondAttribute="bottom" id="Qkz-I7-Deq"/>
                 <constraint firstItem="Xbl-YM-fga" firstAttribute="top" secondItem="VFq-pG-baw" secondAttribute="bottom" constant="10" id="i5P-2M-5Rn"/>
-                <constraint firstItem="Xbl-YM-fga" firstAttribute="leading" secondItem="I7V-54-aXE" secondAttribute="leading" constant="10" id="rFf-Jt-gZF"/>
+                <constraint firstItem="Xbl-YM-fga" firstAttribute="leading" secondItem="I7V-54-aXE" secondAttribute="leading" constant="20" id="rFf-Jt-gZF"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="80" y="-115"/>

@@ -85,6 +85,7 @@ extension RecipeSceneViewController: UICollectionViewDelegate, UICollectionViewD
 extension RecipeSceneViewController: RecipeSceneDisplayView{
     func setRecipes(items: [RecipeScene.ViewModel]) {
         ProgressHUD.dismiss()
+        resetCollectionView()
         self.items.append(contentsOf: items)
         self.collectionView.reloadData()
     }
@@ -95,14 +96,12 @@ extension RecipeSceneViewController: RecipeSceneDisplayView{
     }
     
     private func showErrorView(message: String) {
-        collectionView.isHidden = true
         self.createErrorView()
-        self.view.addSubview(errorView!)
+        collectionView.backgroundView = errorView!
     }
     
     private func resetCollectionView() {
-        collectionView.isHidden = false
-        errorView!.removeFromSuperview()
+        collectionView.backgroundView = nil
     }
     
 }
