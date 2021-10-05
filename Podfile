@@ -7,6 +7,7 @@ target 'Marley Spoon' do
 
   pod 'Contentful'
   pod 'ProgressHUD'
+  pod 'AppCenter'
 
   target 'Marley SpoonTests' do
     inherit! :search_paths

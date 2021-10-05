@@ -1,23 +1,34 @@
 PODS:
+  - AppCenter (4.3.0):
+    - AppCenter/Analytics (= 4.3.0)
+    - AppCenter/Crashes (= 4.3.0)
+  - AppCenter/Analytics (4.3.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.3.0)
+  - AppCenter/Crashes (4.3.0):
+    - AppCenter/Core
   - Contentful (5.5.1):
     - Contentful/ImageOptions (= 5.5.1)
   - Contentful/ImageOptions (5.5.1)
   - ProgressHUD (2.70)
 
 DEPENDENCIES:
+  - AppCenter
   - Contentful
   - ProgressHUD
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AppCenter
     - ProgressHUD
   trunk:
     - Contentful
 
 SPEC CHECKSUMS:
+  AppCenter: 883369ab78427b0561c688158d689dfe1f993ea9
   Contentful: 5bc3d261fe57fa94a99fe89b904f9f11a0f04331
   ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
 
-PODFILE CHECKSUM: 7a4bf70db8050ea12720fe8f87d45a6c0e0e5869
+PODFILE CHECKSUM: f18b78226be485c511b32a7a748fdc1585c0de72
 
 COCOAPODS: 1.10.1
